@@ -9,14 +9,14 @@
 //document.getElementById("opagebutton").innerHTML = "Learn more about the Origins!";
 
 // Featured above is an old block of text that I had repeated five times, one for each page.
-// However, I ran it through chatgpt to turn it into a function because i didn't want literally 50 lines of the same thing
+// However, I ran it through chatgpt to turn it into a function because i didn't want literally 50 lines of the same thing.
 // If it matters, I did attempt to turn this into a function on my own, however it failed and I wasn't able to find the reason why.
 function createLinkSection(parentId, linkId, href, buttonId, buttonText) {
-    const link = document.createElement("a");
+    var link = document.createElement("a");
     link.setAttribute("id", linkId);
     link.setAttribute("href", href);
     document.getElementById(parentId).appendChild(link);
-    const button = document.createElement("button");
+    var button = document.createElement("button");
     button.setAttribute("id", buttonId);
     link.appendChild(button);
     button.innerHTML = buttonText;
