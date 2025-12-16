@@ -25,8 +25,9 @@ function createLinkSection(parentId, linkId, href, buttonId, buttonText) {
 createLinkSection("origin","origlink","origin.html","opagebutton","Learn more about the origins!");
 createLinkSection("alliances","allylink","alliances.html","apagebutton","Learn more about the alliances!");
 createLinkSection("conflict","conflink","conflict.html","cpagebutton","Learn more about the conflicts!");
-createLinkSection("technology","techlink","technology.html","tpagebutton","Lean more about the technology!");
+//createLinkSection("technology","techlink","technology.html","tpagebutton","Lean more about the technology!");
 createLinkSection("decline","endlink","decline.html","epagebutton","Learn more about the end of the Cold War!");
+createLinkSection("quiz","quizlink","quiz.html","qpagebutton","Test your knowledge of the Cold War!");
 
 
 let slideIndex = 1;
