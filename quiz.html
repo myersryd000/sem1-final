@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="quiz.js" defer></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Cold War Quiz</h2>
+
+        <form id="quiz">
+            <div class="question">
+                <p>1. What two ideologies were at the center of the Cold War?</p>
+                <input type="radio" name="q1" value="a"> Fascism and Monarchism<br>
+                <input type="radio" name="q1" value="b"> Capitalism and Communism<br>
+                <input type="radio" name="q1" value="c"> Socialism and Feudalism
+            </div>
+
+            <div class="question">
+                <p>2. What military alliance was formed by the United States and its allies?</p>
+                <input type="radio" name="q2" value="a"> Warsaw Pact<br>
+                <input type="radio" name="q2" value="b"> United Nations<br>
+                <input type="radio" name="q2" value="c"> NATO
+            </div>
+
+            <div class="question">
+                <p>3. What term describes wars fought indirectly between superpowers?</p>
+                <input type="radio" name="q3" value="a"> Civil wars<br>
+                <input type="radio" name="q3" value="b"> Proxy wars<br>
+                <input type="radio" name="q3" value="c"> World wars
+            </div>
+
+            <div class="question">
+                <p>4. Which event symbolized the end of Cold War division in Europe?</p>
+                <input type="radio" name="q4" value="a"> Cuban Missile Crisis<br>
+                <input type="radio" name="q4" value="b"> Fall of the Berlin Wall<br>
+                <input type="radio" name="q4" value="c"> Korean War
+            </div>
+
+            <div class="question">
+                <p>5. Who introduced reforms that helped end the Cold War?</p>
+                <input type="radio" name="q5" value="a"> Joseph Stalin<br>
+                <input type="radio" name="q5" value="b"> Nikita Khrushchev<br>
+                <input type="radio" name="q5" value="c"> Mikhail Gorbachev
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+        </form>
+
+  <div id="result"></div>
+</div>
+</body>
+</html>
